@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@500&family=Hanken+Grotesk:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.big-box {
+  height: 30rem;
+  width: 36rem;
+  display: flex;
+}
+
+.photo-box {
+  height: 30rem;
+  width: 18rem;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
+}
+
+.text-box {
+  background-color: white;
+  height: 30rem;
+  width: 18rem;
+  border-top-right-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top-content {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  height: 100%;
+}
+
+.perfume {
+  font-family: "Hanken Grotesk", sans-serif;
+  opacity: 50%;
+  letter-spacing: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.big-text {
+  font-family: "Fraunces", serif;
+  font-size: 2.2rem;
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+.small-text {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 100;
+  opacity: 50%;
+}
+
+.price-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.big-price {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: hsl(158, 36%, 37%);
+  width: 50%;
+}
+
+.small-price {
+  transform: translateX(20%);
+  font-family: "Hanken Grotesk", sans-serif;
+  opacity: 50%;
+  width: 50%;
+  text-decoration-line: line-through;
+  font-size: 0.8rem;
+}
+
+.bottom-content {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  height: 3rem;
+  width: 14rem;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-img {
+  transform: translateX(-25%);
+}
+
+.btn-text {
+  transform: translateX(10%);
+}
+
+@media screen and (max-width: 580px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 16px;
+  }
+  .big-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+  }
+  .photo-box {
+    height: 50%;
+  }
+  .img {
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0rem;
+  }
+
+  .text-box {
+    height: 100%;
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    border-top-right-radius: 0rem;
+    border-top-left-radius: 0rem;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 220px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 180px) {
+  html {
+    font-size: 8px;
+  }
+}
